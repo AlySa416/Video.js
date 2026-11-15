@@ -845,17 +845,16 @@ main {
   box-shadow: 0 0 40px color-mix(in srgb, var(--g-line-bright) 25%, transparent);
 }
 .g-frame .garden-skin {
-  height:auto;
+  margin: -24px;
+  width: calc(100% + 48px);
 }
 
 /* panel */
 .g-panel {
   display: flex;
   flex-direction: column;
-  /* Same height as the player; a long list scrolls inside instead of stretching the row. */
-  height: 0;
-  min-height: 100%;
-  max-height: none;
+  min-height: 0;
+  max-height: 100%;
   margin-block: 14px;
   padding: 20px;
   border: 2px solid var(--g-line);
@@ -865,8 +864,6 @@ main {
 }
 .g-stage.is-theater .g-panel {
   margin-block: 0;
-  height: 320px;
-  min-height: 0;
   max-height: 320px;
 }
 .g-panel h2 {
@@ -1081,8 +1078,6 @@ main {
   }
   .g-panel {
     margin-block: 0 8px;
-    height: 300px;
-    min-height: 0;
     max-height: 300px;
   }
   .g-film-grid {
