@@ -94,7 +94,8 @@ function toVideo(a: MuxAsset): VideoItem | null {
       ? ''
       : created.toLocaleDateString('en-US', { month: 'short', day: '2-digit', year: 'numeric' }),
     views: 0,
-    tags: tags?.length ? tags.slice(0, 3) : ['Mux', 'Video'],
+    // VideoItem.tags holds exactly two labels
+    tags: [tags?.[0] ?? 'Mux', tags?.[1] ?? 'Video'],
     description: description ?? 'No description yet. Add one in the asset’s passthrough field on Mux.',
     thumbTime: a.duration ? Math.floor(a.duration / 4) : undefined,
   };
