@@ -53,8 +53,8 @@ export const videos: VideoItem[] = [
     src: 'rTi131xc3QuKrnn02sM5PAXQqMbdEDW46uZTjdWhGesA',
     date: 'Nov 15, 2026',
     views: 18,
-    tags: ['Fantasy', 'Adventure'],
-    description: 'A quiet castle town wakes under a violet sky, and every dream leaves a trace behind.',
+    tags: ['Product', 'Glasses'],
+    description: 'Discover stylish and comfortable eyeglasses designed to enhance your look. Made with durable materials, lightweight frames, and clear lenses, they are perfect for everyday use.',
     thumbTime: 90,
   },
   {
@@ -63,8 +63,8 @@ export const videos: VideoItem[] = [
     src: 'vlyOloPWpVWG7tld6BcNKs8qKFWEDPR3o9zrkSm7gIY',
     date: 'Nov 15, 2026',
     views: 12,
-    tags: ['Drama', 'Fantasy'],
-    description: 'Cherry blossoms fall in the moonlight while two strangers share one unspoken wish.',
+    tags: ['Castle', 'Education'],
+    description: 'Discover the history of royal castles, their magnificent architecture, royal families, and fascinating stories from the past.',
     thumbTime: 180,
   },
   {
@@ -74,7 +74,7 @@ export const videos: VideoItem[] = [
     date: 'Nov 15, 2026',
     views: 21,
     tags: ['ad', 'MUX'],
-    description: 'Past the old gate and over the clouds, the road keeps going.',
+    description: 'Advertisment MUX.',
     thumbTime: 420,
   },
   {
@@ -83,8 +83,8 @@ export const videos: VideoItem[] = [
     src: 'GuHjxhcjj01802aymCvr2ytZKSCazvhd62MP2yx2KJN1Q',
     date: 'Nov 15, 2026',
     views: 9,
-    tags: ['Drama', 'Cute'],
-    description: 'A small room, a big window, and a cat who knows exactly when to stay close.',
+    tags: ['Song', 'Indonesian'],
+    description: '**The Magical of Music** is a beautiful melody that brings joy, peace, and magic to every moment. 🎶✨',
     thumbTime: 300,
   },
   {
@@ -93,8 +93,8 @@ export const videos: VideoItem[] = [
     src: 'GIQ029Xse7qZ01nmhQqPWIB0200te6LoF02Mdi2ZWV9jQ63A',
     date: 'Nov 15, 2026',
     views: 21,
-    tags: ['ad', 'MUX'],
-    description: 'Past the old gate and over the clouds, the road keeps going.',
+    tags: ['Song', 'Indonesian'],
+    description: 'A beautiful song inspired by the Musi River, capturing the peaceful atmosphere, local culture, and memories of Palembang.Lagu indah yang terinspirasi dari Sungai Musi, menggambarkan suasana damai, budaya lokal, dan kenangan Kota Palembang.',
     thumbTime: 420,
   },
 ];
